@@ -1,14 +1,14 @@
 <manifest version="1.0" type="device" target-level="legacy">
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>android.hardware.radio</name>
         <transport>hwbinder</transport>
         <fqname>@1.2::IRadio/slot1</fqname>
         <fqname>@1.2::ISap/slot1</fqname>
-        <fqname>@1.2::ISap/slot2</fqname>
     </hal>
-    <hal format="hidl" override="true">
-        <name>android.hardware.radio.config</name>
+    <hal format="hidl">
+        <name>android.hardware.radio.deprecated</name>
         <transport>hwbinder</transport>
+        <fqname>@1.0::IOemHook/slot1</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.tetheroffload.config</name>
@@ -28,59 +28,59 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>com.qualcomm.qti.imscmservice</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>com.qualcomm.qti.uceservice</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.hardware.data.connection</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.hardware.data.latency</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.hardware.radio.am</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.hardware.radio.ims</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.hardware.radio.lpa</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.hardware.radio.qcrilhook</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.hardware.radio.qtiradio</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.hardware.radio.uim</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.hardware.radio.uim_remote_client</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.hardware.radio.uim_remote_server</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.ims.callinfo</name>
         <transport>hwbinder</transport>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.qti.imsrtpservice</name>
         <transport>hwbinder</transport>
     </hal>
