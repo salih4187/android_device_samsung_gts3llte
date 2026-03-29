@@ -36,4 +36,56 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>AtCmdFwdService</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>vendor.samsung.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>IRadio</name>
+            <instance>slot1</instance>
+        </interface>
+        <fqname>@1.2::IRadio/slot1</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.samsung.hardware.radio.channel</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISecChannel</name>
+            <instance>epdgd</instance>
+            <instance>imsd</instance>
+        </interface>
+        <fqname>@1.0::ISecChannel/epdgd</fqname>
+        <fqname>@1.0::ISecChannel/imsd</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.samsung.hardware.radio.configsvc</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IConfigSvc</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IConfigSvc/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.samsung.hardware.radio.secbridge</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISecBridge</name>
+            <instance>slot1</instance>
+        </interface>
+        <fqname>@1.0::ISecBridge/slot1</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.samsung.hardware.radio.sechook</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IOemHook</name>
+            <instance>slot1</instance>
+        </interface>
+        <fqname>@1.0::IOemHook/slot1</fqname>
+    </hal>
 </manifest>
